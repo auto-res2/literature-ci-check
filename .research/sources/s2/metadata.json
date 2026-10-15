@@ -1,0 +1,40 @@
+{
+  "title": "Counting of lattices containing up to four comparable reducible elements and having nullity up to three",
+  "authors": [
+    "B. P. Aware",
+    "A. N. Bhavale"
+  ],
+  "abstract": "In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as nullity of its cover graph. According to Bhavale and Waphare, if a dismantlable lattice of nullity k contains r reducible elements then 2 $\\leq$ r $\\leq$ 2k. In 2003 Pawar and Waphare counted all non-isomorphic lattices with equal number of elements and edges, which are precisely the lattices of nullity one. Recently, Bhavale and Aware counted all non-isomorphic lattices on n elements having nullity up to two. Bhavale and Aware also counted all non-isomorphic lattices on n elements, containing up to three reducible elements, having nullity k $\\geq$ 2. In this paper, we count up to isomorphism the class of all lattices on n elements containing four comparable reducible elements, and having nullity three.",
+  "doi": null,
+  "arxiv_id": "2412.03627v2",
+  "url": "https://arxiv.org/abs/2412.03627v2",
+  "pdf_url": "https://arxiv.org/pdf/2412.03627v2",
+  "published_date": "2024-12-04T16:52:56Z",
+  "venue": null,
+  "citations": null,
+  "source": "arxiv",
+  "external_ids": {
+    "arxiv": "2412.03627v2"
+  },
+  "search": {
+    "query": "sharpness aware minimization",
+    "sources": [
+      "arxiv",
+      "openalex"
+    ],
+    "max_results_per_source": 2,
+    "year": null,
+    "openalex_semantic": false,
+    "source_results": {
+      "arxiv": 2,
+      "openalex": 2
+    },
+    "search_errors": {}
+  },
+  "fetched_at": "2026-10-15T14:50:09+00:00",
+  "fulltext": {
+    "url": "https://arxiv.org/pdf/2412.03627v2",
+    "parser": "pymupdf 1.28.2",
+    "fetched_at": "2026-10-15T14:50:10+00:00"
+  }
+}

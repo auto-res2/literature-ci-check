@@ -1,0 +1,43 @@
+{
+  "title": "Friendly Sharpness-Aware Minimization",
+  "authors": [
+    "Tao Li",
+    "Pan Zhou",
+    "Zhengbao He",
+    "Xinwen Cheng",
+    "Xiaolin Huang"
+  ],
+  "abstract": "Sharpness-Aware Minimization (SAM) has been instrumental in improving deep neural network training by minimizing both training loss and loss sharpness. Despite the practical success, the mechanisms behind SAM's generalization enhancements remain elusive, limiting its progress in deep learning optimization. In this work, we investigate SAM's core components for generalization improvement and introduce “Friendly-SAM” (F-SAM) to further enhance SAM's generalization. Our investigation reveals the key role of batch-specific stochastic gradient noise within the adversarial perturbation, i.e., the current minibatcli gradient, which significantly influences SAM's generalization performance. By decomposing the adversarial perturbation in SAM into full gradient and stochastic gradient noise components, we discover that relying solely on the full gradient component degrades generalization while excluding it leads to improved performance. The possible reason lies in the full gradient component's increase in sharpness loss for the entire dataset, creating inconsistencies with the subsequent sharpness minimization step solely on the current minibatcli data. Inspired by these insights, F-SAM aims to mitigate the negative effects of the full gradient component. It removes the full gradient estimated by an exponentially moving average (EMA) of historical stochastic gradients, and then leverages stochastic gradient noise for improved generalization. Moreover, we provide theoretical validation for the EMA approximation and prove the convergence of F-SAM on non-convex problems. Extensive experiments demonstrate the superior generalization performance and robustness of F-SAM over vanilla SAM. Code is available at https://github.com/nblt/F-SAM.",
+  "doi": "10.1109/cvpr52733.2024.00538",
+  "arxiv_id": "2403.12350",
+  "url": "https://openalex.org/W4402716202",
+  "pdf_url": "https://arxiv.org/pdf/2403.12350",
+  "published_date": "2024-06-16",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "citations": 22,
+  "source": "openalex",
+  "external_ids": {
+    "openalex": "W4402716202"
+  },
+  "search": {
+    "query": "sharpness aware minimization",
+    "sources": [
+      "arxiv",
+      "openalex"
+    ],
+    "max_results_per_source": 2,
+    "year": null,
+    "openalex_semantic": false,
+    "source_results": {
+      "arxiv": 2,
+      "openalex": 2
+    },
+    "search_errors": {}
+  },
+  "fetched_at": "2026-10-15T14:50:10+00:00",
+  "fulltext": {
+    "url": "https://arxiv.org/pdf/2403.12350",
+    "parser": "pymupdf 1.28.2",
+    "fetched_at": "2026-10-15T14:50:10+00:00"
+  }
+}

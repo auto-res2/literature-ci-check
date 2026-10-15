@@ -1,0 +1,1852 @@
+arXiv:2412.03627v2  [math.CO]  15 Mar 2025
+Counting of lattices containing up to four
+comparable reducible elements and having nullity
+up to three
+B. P. Aware1,2* and Dr. A. N. Bhavale2,3†
+1*Department of Mathematics, Modern College of ASC(A),
+Shivajinagar, Pune, 411005, Maharastra, India.
+2Head, Department of Mathematics, Modern College of ASC(A),
+Shivajinagar, Pune, 411005, Maharastra, India.
+*Corresponding author(s). E-mail(s): aware66pp@gmail.com;
+Contributing authors: hodmaths@moderncollegepune.edu.in;
+†These authors contributed equally to this work.
+Abstract
+In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as
+nullity of its cover graph. According to Bhavale and Waphare, if a dismantlable
+lattice of nullity k contains r reducible elements then 2 ≤r ≤2k. In 2003 Pawar
+and Waphare counted all non-isomorphic lattices with equal number of elements
+and edges, which are precisely the lattices of nullity one. Recently, Bhavale and
+Aware counted all non-isomorphic lattices on n elements having nullity up to
+two. Bhavale and Aware also counted all non-isomorphic lattices on n elements,
+containing up to three reducible elements, having nullity k ≥2. In this paper, we
+count up to isomorphism the class of all lattices on n elements containing four
+comparable reducible elements, and having nullity three.
+Keywords: Poset; Lattice; Counting; Nullity.
+MSC Classiﬁcation 2020: 06A07; 06A06.
+1
+1 Introduction
+Birkhoﬀ[1] in 1940 raised the open problem to compute for small n all posets/lattices
+on a set of n elements up to isomorphism. Many authors all over the world attempted
+this problem. Enumeration of all posets with 15 and 16 elements up to isomorphism
+was done by Brinkmann and Mckay [2]. Enumeration of all posets up to isomorphism
+is still in progress for n ≥17. Counting of all lattices on up to 18 elements up to
+isomorphism was carried out by Heitzig and Reinhold [3].
+Bhavale and Waphare [4] deﬁned the concept of a nullity of a poset P denoted by
+η(P) as nullity of its cover graph which is given by p −q + c, where p is the number of
+edges, q is the number of vertices, and c is the number of connected components of the
+graph. In the same paper, they also deﬁned the concept of an RC-lattice as a lattice
+in which all the reducible elements are comparable. Bhavale and Waphare [4], shown
+that for a dismantlable lattice having nullity k containing r reducible elements satisﬁes
+the inequality 2 ≤r ≤2k. In 2003 Pawar and Waphare [5] counted all non-isomorphic
+lattices with n elements, containing exactly two reducible elements, and having nullity
+one. Thakare et al. [6] generalised this result for arbitrary nullity k ≥1. Recently,
+Bhavale and Aware [7] counted all non-isomorphic lattices on n elements, containing
+up to three reducible elements, and having arbitrary nullity k ≥2. Also, Bhavale
+and Aware [8] counted all non-isomorphic lattices on n elements having nullity up to
+two. Thus, this counting covers counting of all non-isomorphic lattices on n elements
+containing r ≤4 reducible elements, and having nullity k ≤2(see [7], [8]). That means,
+the problem of counting of all non-isomorphic lattices on n elements containing r ≥4
+reducible elements, and having nullity k ≥3 is still open. In this paper, we count up
+to isomorphism the class of all non-isomorphic RC-lattices on n elements, containing
+exactly four reducible elements, and having nullity three.
+An element y in P covers an element x in P if x < y, and there is no element z
+in P such that x < z < y. We denote this fact by x ≺y, and say that pair < x, y >
+is a covering or an edge(see [6]). An element of a poset P having at most one lower
+cover and at most one upper cover in P is called doubly irreducible. The set of all
+doubly irreducible elements in the poset P is denoted by Irr(P). The set of all doubly
+irreducible elements having exactly one upper cover and exactly one lower cover in P
+is denoted by Irr∗(P). The graph on a poset P with edges as covering relations is
+called the cover graph and is denoted by C(P). The number of coverings in a chain C
+is called length, denoted by |C| of that chain.
+An element a in a lattice L is meet-reducible(join-reducible) in L if there exist
+b, c ∈L both distinct from a, such that inf{b, c} = a(sup{b, c} = a). An element a in a
+lattice L is said to be reducible if it is either meet-reducible or join-reducible. a is said
+to be meet-irreducible(join-irreducible) if it is not meet-reducible(join-reducible).
+a is doubly irreducible if it is both meet-irreducible and join-irreducible. The set
+of all doubly irreducible elements in L is denoted by Irr(L), and Red(L) denotes
+complement of Irr(L) in L.
+The following deﬁnition is due to 1974 Rival [9].
+Deﬁnition 1.1. [9] A ﬁnite lattice of order n is called dismantlable if there exists a
+chain L1 ⊂L2 ⊂. . . ⊂Ln(= L) of sublattices of L such that |Li| = i, for all i.
+2
+The concept of adjunct operation of lattices, is introduced by Thakare et al. [6].
+Suppose L1 and L2 are two disjoint lattices and (a, b) is a pair of elements in L1 such
+that a < b and a̸ ≺b. Deﬁne the partial order ≤on L = L1 ∪L2 with respect to the
+pair (a, b) as follows: x ≤y in L if x, y ∈L1 and x ≤y in L1, or x, y ∈L2 and x ≤y
+in L2, or x ∈L1, y ∈L2 and x ≤a in L1, or x ∈L2, y ∈L1 and b ≤y in L1.
+It is easy to see that L is a lattice containing L1 and L2 as sublattices. The
+procedure for obtaining L in this way is called adjunct operation (or adjunct sum) of
+L1 with L2. We call the pair (a, b) as an adjunct pair and L as an adjunct of L1 with
+L2 with respect to the adjunct pair (a, b) and write L = L1]b
+aL2. A diagram of L is
+obtained by placing a diagram of L1 and a diagram of L2 side by side in such a way
+that the largest element 1 of L2 is at lower position than b and the least element 0
+of L2 is at the higher position than a and then by adding the coverings < 1, b > and
+< a, 0 >. This clearly gives |E(L)| = |E(L1)| + |E(L2)| + 2. A lattice L is called an
+adjunct of lattices L0, L1, . . . , Lk, if it is of the form L = L0]b1
+a1L1]b2
+a2L2 · · · ]bk
+akLk.
+Theorem 1.2. [6] A ﬁnite lattice is dismantlable if and only if it is an adjunct of
+chains.
+If P1 and P2 are two disjoint posets, the direct sum (see [10]), denoted by P1⊕P2, is
+deﬁned by taking the following order relation on P1∪P2 : x ≤y if and only if x, y ∈P1
+and x ≤y in P1, or x, y ∈P2 and x ≤y in P2 or x ∈P1, y ∈P2. In general P1 ⊕P2̸ =
+P2 ⊕P1. Also, if P1 and P2 are lattices then |E(P1 ⊕P2)| = |E(P1)| + |E(P2)| + 1.
+Lemma 1.3. Let L1(p) and L2(q) be some classes of non-isomorphic lattices on
+p ≥r ≥1 and q ≥s ≥1 elements respectively. If L1 ∈L1(p) and L2 ∈L2(q) are such
+that L1 ⊕L2 = L ∈L (n), a class of non-isomorphic lattices on n = p + q elements
+then |L (n)| =
+n−s
+X
+p=r
+(|L1(p)| × |L2(n −p)|).
+Proof. As n = p+q, for ﬁxed p, there are |L1(p)| non-isomorphic lattices on p elements
+and |L2(n−p)| non-isomorphic lattices on n−p elements. Therefore by multiplication
+principle, for ﬁxed p, there are up to isomorphism |L1(p)|×|L2(n−p)| lattices in L (n).
+Note that r ≤p = n−q ≤n−s, since q ≥s. Thus there are
+n−s
+X
+p=r
+(|L1(p)|×|L2(n−p)|)
+lattices in L (n) up to isomorphism.
+The vertical sum of posets P1 and P2, is obtained from the the direct sum P1 ⊕P2
+by identifying greatest element of P1 with the least element of P2 (see [11]). The
+following deﬁnition is due to Bhamre and Pawar [12].
+Deﬁnition 1.4. [12] Let P1 be a poset with the largest element and P2 be a poset
+with the least element such that the greatest element of P1 and the least element of P2
+are the same(say α) and P1 ∩P2 = {α}, then the vertical sum of P1 with P2, denoted
+by P1 ◦P2, is a poset (P1 ∪P2, ≤) where x ≤y if and only if x, y ∈P1 and x ≤y in
+P1, or x, y ∈P2 and x ≤y in P2, or x in P1 and y in P2.
+Lemma 1.5. Let L1(p) and L2(q) be some classes of non-isomorphic lattices on
+p ≥r ≥1 and q ≥s ≥1 elements respectively. If L1 ∈L1(p) and L2 ∈L2(q) are
+3
+such that L1 ◦L2 = L ∈L (n), a class of non-isomorphic lattices on n = p + q −1
+elements then |L (n)| =
+n−s+1
+X
+p=r
+(|L1(p)| × |L2(n −p + 1)|).
+Proof. As n = p + q −1, for ﬁxed p, there are |L1(p)| non-isomorphic lattices. For
+m ∈N, let P2(m) = {L \ {0} | L ∈L2(m + 1)}. Observe that there is a one-
+one correspondence between the class P2(m) and the class L2(m + 1), and hence
+|L2(m + 1)| = |P2(m)|. Note that for ﬁxed p, there are |P(n −p)| non-isomorphic
+posets on n −p elements, and hence there are |L2(n −p + 1)| non-isomorphic lattices
+on n −p + 1 elements. Therefore by multiplication principle, for ﬁxed p, there are
+|L1(p)| × |L2(n −p + 1)| lattices on n elements in L (n). Note that 1 ≤r ≤p =
+n −q + 1 ≤n −s + 1, since q ≥s ≥1. Thus there are
+n−s+1
+X
+p=r
+(|L1(p)| × |L2(n −p + 1)|)
+lattices in L (n) up to isomorphism.
+Thakare et al. [6] deﬁned a block as a ﬁnite lattice in which the largest element 1 is
+join-reducible and the smallest element 0 is meet-reducible. Moreover, if L is any lattice
+which is diﬀerent from chain, then L contains a unique maximal sublattice which is a
+block called as maximal block. The lattice L is of the form C⊕B or B⊕C or C⊕B⊕C′,
+where C, C′ are chains and B is the maximal block. Further η(L) = η(B). Bhavale
+and Waphare [4] introduced the following concepts namely, retractible element, basic
+retract, basic block, basic block associated to a poset.
+Deﬁnition 1.6. [4] Let P be a poset. Let x ∈Irr(P). Then x is called a retractible
+element of P if it satisﬁes either of the following conditions.
+1. There are no y, z ∈Red(P) such that y ≺x ≺z.
+2. There are y, z ∈Red(P) such that y ≺x ≺z and there is no other directed path
+from y to z in P.
+Deﬁnition 1.7. [4] A poset P is a basic retract if no element of Irr∗(P) is retractible
+in the poset P.
+Deﬁnition 1.8. [4] A poset P is a basic block if it is one element or Irr(P) = φ or
+removal of any doubly irreducible element reduces nullity by one.
+Deﬁnition 1.9. [4] B is a basic block associated to a poset P if B is obtained from
+the basic retract associated to P by successive removal of all the pendant vertices.
+Theorem 1.10. [4] Let B be the basic block associated to a poset P. Then Red(B) =
+Red(P) and η(B) = η(P).
+Theorem 1.11. [4] A dismantlable lattice L containing n elements is of nullity l if
+and only if L is an adjunct of l + 1 chains.
+For the other deﬁnitions, notation, and terminology, see [7], [13] and [14].
+2 Counting of lattices containing up to three
+reducible elements
+In this section, we discuss counting of all non-isomorphic lattices on n elements con-
+taining up to three reducible elements. Let L (n; r, k) be the class of all non-isomorphic
+4
+lattices on n elements such that every member of it contains r comparable reducible
+elements, and has nullity k. Let L (n; r, k, h) be the subclass of L (n; r, k) such that the
+basic block associated to a member of it is of height h. Let B(j; r, k) be the class of all
+non-isomorphic maximal blocks on j elements such that every member of it contains
+r comparable reducible elements and has nullity k. Let B(j; r, k, h) be the subclass of
+B(j; r, k) such that the basic block associated to a member of it is of height h. Let
+P k
+n denote the number of partitions of n into k non-decreasing positive integer parts.
+It is clear that chain is the only lattice containing no reducible element and having
+nullity 0. Obviously, there is no lattice on one reducible element. Thakare et. al. [6]
+enumerated all non-isomorphic lattices on n elements, containing exactly two reducible
+elements, and having nullity k.
+Theorem 2.1. ([6],[7]) For n ≥4 and for 1 ≤k ≤n −3, |L (n; 2, k)| =
+n−k−2
+X
+j=1
+jP k+1
+n−j−1.
+❡
+❡
+❡
+❡
+❡
+❡
+F1
+1
+a
+0
+❡
+❡
+❡
+❡
+❡
+❡
+F2
+1
+0
+a
+❡
+❡
+❡
+❡
+❡
+❡
+❡
+a
+F3
+1
+0
+❡
+❡
+❡
+❡
+❡
+❡
+❡
+❡
+a
+F4
+1
+0
+❡
+❡
+❡
+❡
+❡
+❡
+a
+b
+F5
+1
+0
+❡
+❡
+❡
+❡
+❡
+❡❡
+a
+b
+F6
+1
+0
+❡
+❡
+❡
+❡
+❡
+❡
+❡
+❡
+a
+b
+F7
+1
+0
+Figure I
+For i = 1, 2, 3, 4, let Bi(m; 3, k) denote the subclass of B(m; 3, k) such that Fi(See
+Figure I) is the basic block associated to B ∈Bi(m; 3, k). Following results are due
+to Bhavale and Aware [7].
+Proposition 2.2. [7] For an integer m ≥6 and for 2 ≤k ≤m −4, |B1(m; 3, k)| =
+|B2(m; 3, k)| =
+m−5
+X
+l=1
+m−l−4
+X
+i=1
+P k
+m−l−i−2 +
+m−2
+X
+r=5
+k−2
+X
+s=1
+r−4
+X
+i=1
+P s+1
+r−i−2P k−s
+m−r.
+Proposition 2.3. [7] For an integer m ≥7 and for 2 ≤k ≤m −5, |B3(m; 3, k)| =
+m−3
+X
+l=4
+k−1
+X
+t=1
+P t+1
+l−2 P k−t+1
+m−l−1.
+Proposition 2.4. [7] For an integer m ≥8 and for 3 ≤k ≤m −5, |B4(m; 3, k)| =
+m−7
+X
+r=1
+m−r−3
+X
+l=4
+k−2
+X
+t=1
+P t+1
+l−2 P k−t
+m−r−l−1 +
+m−7
+X
+r=2
+k−2
+X
+s=2
+m−r−3
+X
+l=4
+k−s−1
+X
+t=1
+P t+1
+l−2 P k−s−t+1
+m−r−l−1P s
+r .
+The following result follows from Proposition 2.2, Proposition 2.3, and Proposition
+2.4.
+Theorem 2.5. [7] For m ≥6, |B(m; 3, k)| =
+4
+X
+i=1
+|Bi(m; 3, k)|.
+The following result follows from Theorem 2.5.
+5
+Theorem 2.6. [7] For an integer n ≥6 and for 2 ≤k ≤n −4,
+|L (n; 3, k)| =
+n−6
+X
+i=0
+(i + 1)|B(n −i; 3, k)|.
+Thus, using Theorem 2.1 and Theorem 2.6, we obtain the counting of all non-
+isomorphic lattices on n elements, containing up to three reducible elements, and
+having nullity k. We raise the problem of counting all non-isomorphic lattices on n
+elements, containing r ≥4 reducible elements, and having nullity k ≥2. Recently,
+Bhavale and Aware [8] solved this problem for r = 4 and k = 2. Interestingly, L (n; r, k)
+consists of the lattices which are all RC-lattices for r = 4 and k = 2. But there exists
+a non RC-lattice L ∈L (n; r, k) for r ≥4 and k ≥3(see [15]). In Section 3, we obtain
+the solution to this problem for the class of RC-lattices for which r = 4 and k = 3.
+3 Counting of RC-lattices containing four reducible
+elements and having nullity up to three
+In this section, ﬁrstly we discuss counting of all non-isomorphic lattices on n elements,
+containing four reducible elements, and having nullity two. Secondly, we count all non-
+isomorphic lattices on n elements, containing four comparable reducible elements, and
+having nullity three.
+3.1 Counting of lattices containing four reducible elements
+and having nullity two
+According to Bhavale and Aware [8], if B is the basic block associated to B ∈B(j; 4, 2)
+then B ∈{F5, F6, F7}(see Figure I). Note that F5, F6, F7 are the basic blocks associ-
+ated to members of the classes B(j; 4, 2, 3), B(j; 4, 2, 4), B(j; 4, 2, 5) respectively. The
+following results are due to Bhavale and Aware [8].
+Proposition 3.1. [8] For j ≥6, |B(j; 4, 2, 3)| =
+ j−2
+4
+
+=
+j−5
+X
+l=1
+j−l−4
+X
+s=1
+j−s−l−3
+X
+r=1
+(j −s −l −
+r −2).
+Proposition 3.2. [8] For j ≥7, |B(j; 4, 2, 4)| =
+j−6
+X
+i=1
+j−i−4
+X
+l=2
+(l −1)P 2
+j−i−l−2.
+Proposition 3.3. [8]For j ≥8, |B(j; 4, 2, 5)| =
+j−8
+X
+m=0
+j−m−4
+X
+s=4
+P 2
+s−2P 2
+j−m−s−2.
+The following result follows from Proposition 3.1, Proposition 3.2, and Proposition
+3.3.
+Theorem 3.4. [8] For j ≥6, |B(j; 4, 2)| =
+5
+X
+i=3
+|B(j; 4, 2, i)|.
+The following result follows from Theorem 3.4.
+Theorem 3.5. [8] For n ≥6, |L (n; 4, 2)| =
+n−6
+X
+i=0
+(i + 1)|B(n −i; 4, 2)|.
+6
+Thus using Theorem 2.1, Theorem 2.6, and Theorem 3.5, Bhavale and Aware [8]
+obtained the counting of all non-isomorphic lattices having nullity up to two, as for
+k = 2, 2 ≤r ≤4.
+3.2 Counting of RC-lattices containing four reducible elements
+and having nullity three
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B1
+0
+a
+b
+1
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B2 = B∗
+1
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B3
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+0
+a
+x
+b
+1
+B4
+❜
+❜
+❜
+❜
+❜
+❜
+❜❜
+B5
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B6
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B7 = B∗
+6
+Figure II
+Figure III
+B8
+B10
+B9 = B∗
+8
+B11 = B∗
+10
+B12
+B13
+B14 = B∗
+13
+❜
+❜
+❜
+❜
+❜
+❜❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+0
+x
+a
+b
+y
+1
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+Figure IV
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B15
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B16 = B∗
+15
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B17
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B18 = B∗
+17
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B19
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+B20 = B∗
+19
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+❜
+☞
+☞☞
+❜
+❜
+❜
+❜
+❜
+❜
+❜1
+x
+a
+y
+b
+z
+0
+❜
+❜
+❜
+B22
+B21
+In this subsection, we count all non-isomorphic lattices on n elements, containing four
+comparable reducible elements, and having nullity three. Let B∗denote the dual of
+basic block B. According to Bhavale [15], there are exactly twenty two basic blocks (see
+Figure II, Figure III, and Figure IV) containing four comparable reducible elements,
+and having nullity three. Therefore we have the following result.
+Proposition 3.6. If B is the basic block associated to B ∈B(j; 4, 3) where j ≥7
+then B ∈{B1, B2, B3, . . . , B22}(see Figure II, Figure III, and Figure IV).
+Now out of twenty two basic blocks there are three of height three, namely
+B1, B2, B3(see Figure II), nine of height four, namely B4 to B12(see Figure II and
+Figure III), eleven of height ﬁve, namely B13 to B21(see Figure III and Figure IV), and
+B22(see Figure IV) is of height six. Also, for n ≥7, if L ∈L (n; 4, 3, h) then 3 ≤h ≤6.
+Now in this subsection, ﬁrstly we count the classes B(j; 4, 3, h) for 3 ≤h ≤6. Sec-
+ondly, we count the classes L (n; 4, 3, h) for 3 ≤h ≤6, and thereby we count the
+class L (n; 4, 3). For 1 ≤i ≤22, let Bi(j; 4, 3) be the subclass of B(j; 4, 3) containing
+all maximal blocks of type B ∈B(j; 4, 3) such that Bi(see Figure II, Figure III, and
+Figure IV) is the basic block associated to B.
+7
+Remark 3.7. 1. For j ≥7, B(j; 4, 3, 3) = ˙∪3
+i=1Bi(j; 4, 3).
+2. For j ≥8, B(j; 4, 3, 4) = ˙∪12
+i=4Bi(j; 4, 3).
+3. For j ≥9, B(j; 4, 3, 5) = ˙∪21
+i=13Bi(j; 4, 3).
+4. For j ≥10, B(j; 4, 3, 6) = B22(j; 4, 3).
+5. For j ≥7, B(j; 4, 3) = ˙∪6
+h=3B(j; 4, 3, h).
+6. For n ≥7, L (n; 4, 3) = ˙∪6
+h=3L (n; 4, 3, h).
+3.2.1 Counting of the class B(j; 4, 3, 3)
+Now, we count the the class B(j; 4, 3, 3) by counting the classes Bi(j; 4, 3) for i = 1 to 3.
+For x < y, the interval [x, y) = {a ∈P : x ≤a < y}, and (x, y) = {a ∈P : x < a < y};
+similarly, (x, y] and [x, y] can also be deﬁned.
+Proposition 3.8. For j ≥7, |B1(j; 4, 3)| =
+j−6
+X
+s=1
+j−s−5
+X
+r=1
+j−s−r−3
+X
+l=2
+(j −s −r −l −2)P 2
+l .
+Proof. Let B ∈B1(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B1(see Figure II) is the basic block associated to B, by Theorem 1.10, Red(B1) =
+Red(B) and η(B1) = η(B) = 3. Observe that an adjunct representation of B1 is
+given by B1 = C]1
+a{c1}]b
+0{c2}]b
+0{c3}, where C : 0 ≺a ≺b ≺1 is a 4-chain. Also by
+Theorem 1.11, B has an adjunct representation B = C0]1
+aC1]b
+0C2]b
+0C3, where C0 is a
+maximal chain containing all the reducible elements of B, and C1, C2, C3 are chains.
+Let s = |[0, a) ∩B| ≥1, t = |[a, 1] ∩B| ≥3, r = |C1| ≥1, |C2| = l1, |C3| = l2 with
+1 ≤l1 ≤l2. Let l = l1 + l2.
+Now for ﬁxed s, r, l, there are t −2 = j −s −r −l −2 choices for b in B up to
+isomorphism. Also note that l elements can be distributed over chains C2 and C3 in
+P 2
+l ways up to isomorphism. That is, for ﬁxed s, r, l, there are (t −2) × P 2
+l = (j −s −
+r−l−2)×P 2
+l non-isomorphic maximal blocks in B1(j; 4, 3). Now for ﬁxed s, r, 2 ≤l =
+j−s−t−r ≤j−s−r−3, since t ≥3. Therefore there are
+j−s−r−3
+X
+l=2
+(j−s−r−l−2)×P 2
+l
+maximal blocks in B1(j; 4, 3) up to isomorphism. Now for ﬁxed s, 1 ≤r = j−s−t−l ≤
+j −s −5, since t ≥3, l ≥2, and there are
+j−s−5
+X
+r=1
+j−s−r−3
+X
+l=2
+(j −s −r −l −2)P 2
+l maximal
+blocks in B1(j; 4, 3) up to isomorphism. Further, 1 ≤s = j −t −r −l ≤j −6, since
+t ≥3, r ≥1, l ≥2, and there are
+j−6
+X
+s=1
+j−s−5
+X
+r=1
+j−s−r−3
+X
+l=2
+(j −s −r −l −2)P 2
+l maximal
+blocks in B1(j; 4, 3) up to isomorphism.
+Note that B ∈B2(j; 4, 3) if and only if B* ∈B1(j; 4, 3). Therefore by Proposition
+3.8, we have the following result.
+Corollary 3.9. For j ≥7, |B2(j; 4, 3)| =
+j−6
+X
+s=1
+j−s−5
+X
+r=1
+j−s−r−3
+X
+l=2
+(j −s −r −l −2)P 2
+l .
+8
+Proposition 3.10. For j ≥7, |B3(j; 4, 3)| =
+j−6
+X
+p=1
+j −p −2
+4
+
+.
+Proof. Let B ∈B3(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As B3(see
+Figure II) is the basic block associated to B, by Theorem 1.10, Red(B3) = Red(B)
+and η(B3) = η(B) = 3. Observe that an adjunct representation of B3 is given by
+B3 = C]b
+0{c1}]1
+a{c2}]1
+0{c3}, where C : 0 ≺a ≺b ≺1 is a 4-chain. Also by Theorem
+1.11, B has an adjunct representation B = C0]b
+0C1]1
+aC2]1
+0C3, where C0 is a maximal
+chain containing all the reducible elements of B, and C1, C2, C3 are chains.
+Observe that, B = B′]1
+0C3, where B′ = C0]b
+0C1]1
+aC2 ∈B(i; 4, 2, 3) for i ≥6 and
+|C3| = p ≥1 with j = i + p ≥7. Suppose D = D′]1
+0C′
+3, where D′ = C′
+0]b
+0C′
+1]1
+aC′
+2 ∈
+B(i; 4, 2, 3) for i ≥6 and |C′
+3| = p ≥1 with j = i + p ≥7. Then it is clear that B ∼= D
+if and only if B′ ∼= D′ and C3 ∼= C′
+3. To prove this suppose B ∼= D. As |C3| = |C′
+3| = p,
+C3 ∼= C′
+3, and hence B \ C3 ∼= D \ C′
+3, that is, B′ ∼= D′. The converse is obvious.
+Now for ﬁxed p, there are |B(j −p; 4, 2, 3)| maximal blocks in B3(j; 4, 3) up to
+isomorphism. Further 1 ≤p = j −i ≤j −6, since i ≥6. Therefore there are
+j−6
+X
+p=1
+|B(j −p; 4, 2, 3)| maximal blocks in B3(j; 4, 3) up to isomorphism. By Proposi-
+tion 3.1, |B(i; 4, 2, 3)| =
+ i−2
+4
+
+. Therefore there are
+j−6
+X
+p=1
+j −p −2
+4
+
+maximal blocks
+in B3(j; 4, 3) up to isomorphism.
+Using Proposition 3.8, Corollary 3.9, and Proposition 3.10, we have the following
+result.
+Theorem 3.11. For j ≥7, |B(j; 4, 3, 3)| =
+3
+X
+i=1
+|Bi(j; 4, 3)| =
+j−6
+X
+s=1
+j−s−5
+X
+r=1
+j−s−r−3
+X
+l=2
+2(j −s −r −l −2)P 2
+l +
+j−6
+X
+p=1
+j −p −2
+4
+
+.
+3.2.2 Counting of the class B(j; 4, 3, 4)
+Here, we count the classes Bi(j; 4, 3) for i = 4 to 12, consequently, we count the class
+B(j; 4, 3, 4). For that sake, let us deﬁne L ′(n; 2, 2) as the subclass of L (n; 2, 2) such
+that any L ∈L ′(n; 2, 2) is of the form L = C ⊕B⊕C′ where B is the maximal block,
+and C, C′ are chains with |C| ≥1, |C′| ≥1. Then we have the following result.
+Proposition 3.12. For n ≥7, |L ′(n; 2, 2)| =
+n−5
+X
+i=2
+(i −1)P 3
+n−i−2.
+Proof. Let L ∈L ′(n; 2, 2). Then L = C ⊕B ⊕C′ where B is the maximal block, and
+C, C′ are chains with |C| ≥1, |C′| ≥1. Let |C|+|C′| = i ≥2 and B ∈B(p; 2, 2), where
+p = n −i ≥5, since i ≥2. For ﬁxed i, using Theorem 2.1, by taking k = 2, we have
+|B(n −i; 2, 2)| = P 3
+n−i−2. Now i −2 (excluding 0 and 1) elements can be distributed
+over the chains C and C′ in (i −2) + 1 = i −1 ways up to isomorphism. Further,
+9
+2 ≤i = n−p ≤n−5, since p ≥5. Therefore |L ′(n; 2, 2)| =
+n−5
+X
+i=2
+(i−1)|B(n−i; 2, 2)| =
+n−5
+X
+i=2
+(i −1)P 3
+n−i−2.
+Proposition 3.13. For j ≥8, |B4(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−5
+X
+i=2
+(i −1)P 3
+j−t−i−2.
+Proof. Let B ∈B4(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As B4(see
+Figure II) is the basic block associated to B, by Theorem 1.10, Red(B4) = Red(B)
+and η(B4) = η(B) = 3. Observe that an adjunct representation of B4 is given by
+B4 = C]b
+a{c1}]b
+a{c2}]1
+0{c3}, where C : 0 ≺a ≺x ≺b ≺1 is a 5-chain. Also by Theorem
+1.11, B has an adjunct representation B = C0]b
+aC1]b
+aC2]1
+0C3, where C0 is a maximal
+chain containing all the reducible elements of B, and C1, C2, C3 are chains.
+Observe that, B = L]1
+0C3 where L ∈L ′(m; 2, 2) for m ≥7 and |C3| = t ≥1 with
+j = m+t ≥8. Suppose D = L′]1
+0C′
+3 where L′ ∈L ′(m; 2, 2) for m ≥7 and |C′
+3| = t ≥1
+with j = m + t ≥8. Then it is clear that B ∼= D if and only if L ∼= L′ and C3 ∼= C′
+3.
+Now for ﬁxed t, there are |L ′(j−t; 2, 2)| maximal blocks in B4(j; 4, 3) of type B up
+to isomorphism. Further 1 ≤t = j −m ≤j −7, since m ≥7. Therefore |B4(j; 4, 3)| =
+j−7
+X
+t=1
+|L ′(j −t; 2, 2)|. But by Proposition 3.12, |L ′(j −t; 2, 1)| =
+j−t−5
+X
+i=2
+(i −1)P 3
+j−t−i−2.
+Hence
+j−7
+X
+t=1
+j−t−5
+X
+i=2
+(i −1)P 3
+j−t−i−2.
+Proposition 3.14. For j ≥8, |B5(j; 4, 3)| =
+j−4
+X
+p=4
+j−p−3
+X
+t=1
+tP 2
+j−p−t−1P 2
+p−2.
+Proof. Let B ∈B5(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As B5(see
+Figure II) is the basic block associated to B, by Theorem 1.10, Red(B5) = Red(B)
+and η(B5) = η(B) = 3. Observe that an adjunct representation of B5 is given by
+B5 = C]b
+a{c1}]1
+0{c2}]1
+0{c3}, where C : 0 ≺a ≺x ≺b ≺1 is a 5-chain. Also by Theorem
+1.11, B has an adjunct representation B = C0]b
+aC1]1
+0C2]1
+0C3, where C0 is a maximal
+chain containing all the reducible element of B, and C1, C2, C3 are chains.
+Observe that, B = B′]1
+0L′ where B′ = C′
+2]1
+0C3 ∈B(p; 2, 1) for p ≥4 with C′
+2 =
+{0} ⊕C2 ⊕{1}, and L′ = C′
+0]b
+aC1 ∈L (q; 2, 1) for q ≥4, with C′
+0 = C0 \ {0, 1}.
+Note that j = p + q ≥8. Suppose D = D′]1
+0L′′ where D′ = C′′′
+2 ]1
+0C′
+3 ∈B(p; 2, 1) for
+p ≥4 with C′′′
+2
+= {0} ⊕C′′
+2 ⊕{1}, and L′′ = C′′′
+0 ]b
+aC′
+1 ∈L (q; 2, 1) for q ≥4, with
+C′′′
+0 = C′′
+0 \ {0, 1}. Then it is clear that B ∼= D if and only if B′ ∼= D′ and L′ ∼= L′′.
+Now for ﬁxed p, there are |B(p; 2, 1)|×|L (j −p; 2, 1)| maximal blocks in B5(j; 4, 3)
+up to isomorphism. Clearly for ﬁxed p, |B(p; 2, 1)| = P 2
+p−2, since B′ \ {0, 1} = C2 ˙∪C3.
+Further 4 ≤p = j −q ≤j −4, since q ≥4. Therefore there are
+j−4
+X
+p=4
+|B(p; 2, 1)| ×
+|L (j −p; 2, 1)| maximal blocks in B5(j; 4, 3) up to isomorphism. Also using Theorem
+10
+2.1, by taking k = 1, we have for ﬁxed p, |L (j −p; 2, 1)| =
+j−p−3
+X
+t=1
+tP 2
+j−p−t−1. Hence,
+there are
+j−4
+X
+p=4
+P 2
+p−2 ×
+ j−p−3
+X
+t=1
+tP 2
+j−p−t−1
+!
+=
+j−4
+X
+p=4
+j−p−3
+X
+t=1
+tP 2
+p−2P 2
+j−p−t−1 maximal blocks
+in B5(j; 4, 3) up to isomorphism.
+Proposition 3.15. For j ≥8,
+|B6(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proof. Let B ∈B6(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As B6(see
+Figure II) is the basic block associated to B, by Theorem 1.10, Red(B6) = Red(B)
+and η(B6) = η(B) = 3. Observe that an adjunct representation of B6 is given by
+B6 = C]1
+a{c1}]1
+b{c2}]b
+0{c3}, where C : 0 ≺a ≺b ≺y ≺1 is a 5-chain. Also by Theorem
+1.11, B has an adjunct representation B = C0]1
+aC1]1
+bC2]b
+0C3, where C0 is a maximal
+chain containing all the reducible elements of B, and C1, C2, C3 are chains.
+Observe that, B = L]b
+0C3 where L = C′ ⊕B′ with B′ ∈B1(m; 3, 2) for m ≥6, C′
+is a chain with |C′| = r ≥1, C3 is a chain with |C3| = t ≥1, and j = m + r + t ≥8.
+Suppose D = L′]b
+0C′
+3 where L′ = C′′ ⊕D′ with D′ ∈B1(m; 3, 2) for m ≥6, C′′ is a
+chain with |C′′| = r ≥1, C′
+3 is a chain with |C′
+3| = t ≥1. Then it is clear that B ∼= D
+if and only if L ∼= L′ and C3 ∼= C′
+3.
+Using
+Proposition
+2.2,
+by
+taking
+k
+=
+2,
+we
+have
+|B1(m; 3, 2)|
+=
+m−5
+X
+l=1
+m−l−4
+X
+i=1
+P 2
+m−l−i−2.
+Therefore
+for
+ﬁxed
+r
+and
+t,
+there
+are
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2 maximal blocks of type B′ up to isomorphism
+in B1(j −t −r; 3, 2). Now 1 ≤r = j −t −m ≤j −t −6, since m ≥6.
+Therefore
+for
+ﬁxed
+t,
+there
+are
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2
+lattices
+of type L up to isomorphism. Further, 1 ≤t = j −m −r ≤j −7, since
+m
+≥
+6, r
+≥
+1. Therefore there are
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2
+maximal blocks of type B up to isomorphism in B6(j; 4, 3). Thus for j
+≥8,
+|B6(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Note that B ∈B7(j; 4, 3) if and only if B* ∈B6(j; 4, 3). Therefore using
+Proposition 3.15, we have the following result.
+Corollary 3.16. For j ≥8, |B7(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+11
+Proposition 3.17. For j ≥8,
+|B8(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proof. Proof is similar to the proof of Proposition 3.15.
+Note that B ∈B9(j; 4, 3) if and only if B* ∈B8(j; 4, 3). Therefore using
+Proposition 3.17, we have the following result.
+Corollary 3.18. For j ≥8, |B9(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proposition 3.19. For j ≥8,
+|B10(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proof. Proof is similar to the proof of Proposition 3.15.
+Note that B ∈B11(j; 4, 3) if and only if B* ∈B10(j; 4, 3). Therefore using
+Proposition 3.19, we have the following result.
+Corollary 3.20. For j ≥8, |B11(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proposition 3.21. For j ≥8,
+|B12(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+P 2
+j−t−r−l−i−2.
+Proof. Proof is similar to the proof of Proposition 3.15.
+Using Proposition 3.13, Proposition 3.14, Proposition 3.15, Corollary 3.16, Propo-
+sition 3.17, Corollary 3.18, Proposition 3.19, Corollary 3.20, and Proposition 3.21, we
+have the following result.
+Theorem 3.22. For j ≥8, B(j; 4, 3, 4) =
+12
+X
+i=4
+|Bi(j; 4, 3)| =
+j−7
+X
+t=1
+j−t−5
+X
+i=2
+(i −1)P 3
+j−t−i−2
++
+j−4
+X
+p=4
+j−p−3
+X
+t=1
+tP 2
+j−p−t−1P 2
+p−2 +
+j−7
+X
+t=1
+j−t−6
+X
+r=1
+j−t−r−5
+X
+l=1
+j−t−r−l−4
+X
+i=1
+7P 2
+j−t−r−l−i−2.
+3.2.3 Counting of the class B(j; 4, 3, 5)
+Here, we count the classes Bi(j; 4, 3) for i = 13 to 21, consequently, we count the class
+B(j; 4, 3, 5).
+Proposition 3.23. For j ≥9, |B13(j; 4, 3)| =
+j−9
+X
+r=0
+j−r−4
+X
+p=5
+P 3
+p−2P 2
+j−p−r−2.
+Proof. Let B ∈B13(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B13(see Figure III) is the basic block associated to B, by Theorem 1.10, Red(B13) =
+Red(B) and η(B13) = η(B) = 3. Observe that an adjunct representation of B13 is
+12
+given by B13 = C]a
+0{c1}]a
+0{c2}]1
+b{c3}, where C : 0 ≺x ≺a ≺b ≺y ≺1 is a 6-chain.
+Also by Theorem 1.11, B has an adjunct representation B = C0]a
+0C1]a
+0C2]1
+bC3, where
+C0 is a maximal chain containing all the reducible elements of B, and C1, C2, C3 are
+chains.
+Observe that, B = B′ ⊕C′ ⊕B′′ where B′ ∈B(p; 2, 2) with p ≥5, B′′ ∈B(q; 2, 1)
+with q ≥4, and C′ is a chain with |C′| = r ≥0. Suppose D = D′⊕C′′⊕D′′ where D′ ∈
+B(p; 2, 2) with p ≥5, D′′ ∈B(q; 2, 1) with q ≥4, and C′′ is a chain with |C′′| = r ≥0.
+Then it is clear that B ∼= D if and only if B′ ∼= D′, C′ ∼= C′′, and B′′ ∼= D′′. Note that
+j = p+q+r ≥9. As B′ ∈B(p; 2, 2) and B′\{0, a} = (C0∩(0, a)) ˙∪C1 ˙∪C2, |B(p; 2, 2)|=
+P 3
+p−2. Also as B′′ ∈B(q; 2, 1) and B′′ \ {b, 1} = (C0 ∩(b, 1)) ˙∪C3, |B(q; 2, 1)| = P 2
+q−2.
+Therefore for ﬁxed p and r, there are |B(p; 2, 2)|×|B(j−q−r; 2, 1)| = P 3
+p−2×P 2
+j−q−r−2
+maximal blocks in B13(j; 4, 3) up to isomorphism. Now 5 ≤p = j −q −r ≤j −r −4,
+since q ≥4. Therefore for ﬁxed r by Lemma 1.3, there are
+j−r−4
+X
+p=5
+|B(p; 2, 2)| × |B(j −
+p−r; 2, 1)| =
+j−r−4
+X
+p=5
+P 3
+p−2×P 2
+j−p−r−2 maximal blocks in B13(j; 4, 3) up to isomorphism.
+Further, 0 ≤r = j −p −q ≤j −9, since p ≥5 and q ≥4, and hence there are
+j−9
+X
+r=0
+j−r−4
+X
+p=5
+P 3
+p−2P 2
+j−p−r−2 maximal blocks in B13(j; 4, 3) up to isomorphism.
+Note that B ∈B14(j; 4, 3) if and only if B* ∈B13(j; 4, 3). Therefore using
+Proposition 3.23, we have the following result.
+Corollary 3.24. For j ≥9, |B14(j; 4, 3)| =
+j−9
+X
+r=0
+j−r−4
+X
+p=5
+P 3
+p−2P 2
+j−p−r−2.
+Proposition 3.25. For j ≥9, |B15(j; 4, 3)| =
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2P 2
+j−p−l−i−1.
+Proof. Let B ∈B15(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B15(see Figure IV) is the basic block associated to B, by Theorem 1.10, Red(B15) =
+Red(B) and η(B15) = η(B) = 3. Observe that an adjunct representation of B15 is
+given by B15 = C]a
+0{c1}]b
+a{c2}]1
+a{c3}, where C : 0 ≺x ≺a ≺y ≺b ≺1 is a 6-chain.
+Also by Theorem 1.11, B has an adjunct representation B = C0]a
+0C1]b
+aC2]1
+aC3, where
+C0 is a maximal chain containing all the reducible elements of B, and C1, C2, C3 are
+chains.
+Observe that, B = B′ ◦B′′ where B′ ∈B(p; 2, 1) with p ≥4, B′′ ∈B2(q; 3, 2)
+with q ≥6, and as the element a is considered twice, j = p + q −1. Suppose
+D = D′ ◦D′′ where D′ ∈B(p; 2, 1) with p ≥4, D′′ ∈B2(q; 3, 2) with q ≥6. Then
+it is clear that B ∼= D if and only if B′ ∼= D′ and B′′ ∼= D′′. Now for ﬁxed p,
+there are |B(p; 2, 1)| × |B2(q; 3, 2)| maximal blocks in B15(j; 4, 3) up to isomorphism,
+where q = j −p + 1. Further 4 ≤p = j −q + 1 ≤j −5, since q ≥6. Therefore by
+Lemma 1.5, |B15(j; 4, 3)| =
+j−5
+X
+p=4
+|B(p; 2, 1)| × |B2(j −p + 1; 3, 2)|. As B′ ∈B(p; 2, 1)
+13
+and B′ \ {0, a} = (C0 ∩(0, a)) ˙∪C1, |B(p; 2, 1)| = P 2
+p−2. Using Proposition 2.2, by
+taking k = 2, we have |B2(j −p + 1; 3, 2)| =
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+j−p−l−i−1. Therefore
+|B15(j; 4, 3)| =
+j−5
+X
+p=4
+ 
+P 2
+p−2 ×
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+j−p−l−i−1
+!
+=
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2 ×
+P 2
+j−p−l−i−1. Thus there are
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2P 2
+j−p−l−i−1 maximal blocks in
+B15(j; 4, 3) up to isomorphism.
+Note that B ∈B16(j; 4, 3) if and only if B* ∈B15(j; 4, 3). Therefore using
+Proposition 3.25, we have the following result.
+Corollary 3.26. For j ≥9, |B16(j; 4, 3)| =
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2P 2
+j−p−l−i−1.
+Proposition 3.27. For j ≥9, |B17(j; 4, 3)| =
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2P 2
+j−p−l−i−1.
+Proof. Proof is similar to the proof of Proposition 3.25.
+Note that B ∈B18(j; 4, 3) if and only if B* ∈B17(j; 4, 3). Therefore using
+Proposition 3.27, we have the following result.
+Corollary 3.28. For j ≥9, |B18(j; 4, 3)| =
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+P 2
+p−2P 2
+j−p−l−i−1.
+Proposition 3.29. For j ≥9, |B19(j; 4, 3)| =
+j−8
+X
+r=1
+j−r−7
+X
+q=1
+j−q−r−3
+X
+l=4
+P 2
+l−2P 2
+j−q−r−l−1.
+Proof. Let B ∈B19(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B19(see Figure IV) is the basic block associated to B, by Theorem 1.10, Red(B19) =
+Red(B) and η(B19) = η(B) = 3. Observe that an adjunct representation of B19 is
+given by B19 = C]a
+0{c1}]b
+a{c2}]1
+0{c3}, where C : 0 ≺x ≺a ≺y ≺b ≺1 is a 6-chain.
+Also by Theorem 1.11, B has an adjunct representation B = C0]a
+0C1]b
+aC2]1
+0C3, where
+C0 is a maximal chain containing all the reducible elements of B, and C1, C2, C3 are
+chains.
+Observe that, B = (B′ ⊕C′)]1
+0C3 where B′ ∈B3(p; 3, 2) with p ≥7, C′ is a
+chain with |C′| = q ≥1, and |C3| = r ≥1. Note that j = p + q + r ≥9. Suppose
+D = (D′⊕C′′)]1
+0C′
+3 where D′ ∈B3(p; 3, 2) with p ≥7, C′′ is a chain with |C′′| = q ≥1,
+and |C′
+3| = r ≥1. Then it is clear that B ∼= D if and only if B′ ∼= D′, C′ ∼= C′′,
+and C3 ∼= C′
+3. Now for ﬁxed q and r there are |B3(j −q −r; 3, 2)| maximal blocks in
+B19(j; 4, 3) up to isomorphism. Further 1 ≤q = j −p −r ≤j −r −7, since p ≥7.
+Therefore for ﬁxed r there are
+j−r−7
+X
+q=1
+|B3(j −q −r; 3, 2)| maximal blocks in B19(j; 4, 3)
+up to isomorphism. Further more 1 ≤r = j −p −q ≤j −8, since p ≥7, q ≥1.
+14
+Therefore there are
+j−8
+X
+r=1
+j−r−7
+X
+q=1
+|B3(j −q −r; 3, 2)| maximal blocks in B19(j; 4, 3) up to
+isomorphism. Using Proposition 2.3, by taking k = 2, we get |B3(j −q −r; 3, 2)| =
+j−q−r−3
+X
+l=4
+P 2
+l−2P 2
+j−q−r−l−1. Thus there are
+j−8
+X
+r=1
+j−r−7
+X
+q=1
+j−q−r−3
+X
+l=4
+P 2
+l−2P 2
+j−q−r−l−1 maximal
+blocks in B19(j; 4, 3) up to isomorphism.
+Note that B ∈B20(j; 4, 3) if and only if B* ∈B19(j; 4, 3). Therefore using
+Proposition 3.29, we have the following result.
+Corollary 3.30. For j ≥9, |B20(j; 4, 3)| =
+j−8
+X
+r=1
+j−r−7
+X
+q=1
+j−q−r−3
+X
+l=4
+P 2
+l−2P 2
+j−q−r−l−1.
+Proposition 3.31. For j ≥9,
+|B21(j; 4, 3)| =
+j−8
+X
+t=1
+j−t−8
+X
+m=0
+j−t−m−4
+X
+s=4
+(j −t −m −7)P 2
+s−2P 2
+j−t−m−s−2.
+Proof. Let B ∈B21(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B21(see Figure IV) is the basic block associated to B, by Theorem 1.10, Red(B21) =
+Red(B) and η(B21) = η(B) = 3. Observe that an adjunct representation of B21 is
+given by B21 = C]a
+0{c1}]1
+b{c2}]1
+0{c3}, where C : 0 ≺x ≺a ≺b ≺y ≺1 is a 6-chain.
+Also by Theorem 1.11, B has an adjunct representation B = C0]a
+0C1]1
+bC2]1
+0C3, where
+C0 is a maximal chain containing all the reducible elements of B, and C1, C2, C3 are
+chains.
+Observe that, B = B′]1
+0C3 where B′ ∈B(p; 4, 2, 5) with p ≥8 and C3 is a
+chain with |C3| = t ≥1. Note that j = p + t ≥9. Suppose D = D′]1
+0C′
+3 where
+D′ ∈B(p; 4, 2, 5) with p ≥8 and C′
+3 is a chain with |C′
+3| = t ≥1. Then it is
+clear that B ∼= D if and only if B′ ∼= D′ and C3 ∼= C′
+3. Now for ﬁxed t, there
+are |B(j −t; 4, 2, 5)| maximal blocks in B21(j; 4, 3) up to isomorphism. By Propo-
+sition 3.3, we have |B(p; 4, 2, 5)| =
+p−8
+X
+m=0
+p−m−4
+X
+s=4
+(p −m −7)P 2
+s−2P 2
+p−m−s−2. Further
+1 ≤t = j −p ≤j −8, since p ≥8. Therefore there are
+j−8
+X
+t=1
+|B(j −t; 4, 2, 5)| =
+j−8
+X
+t=1
+ j−t−8
+X
+m=0
+j−t−m−4
+X
+s=4
+(j −t −m −7)P 2
+s−2P 2
+j−t−m−s−2
+!
+maximal blocks in B21(j; 4, 3)
+up to isomorphism.
+Using Proposition 3.23, Corollary 3.24, Proposition 3.25, Corollary 3.26, Proposi-
+tion 3.27, Corollary 3.28, Proposition 3.29, Corollary 3.30, and Proposition 3.31, we
+have the following result.
+Theorem 3.32. For j ≥9,
+|B(j; 4, 3, 5)| =
+21
+X
+i=13
+|Bi(j; 4, 3)| =
+j−9
+X
+r=0
+j−r−4
+X
+p=5
+2P 3
+p−2P 2
+j−p−r−2
+15
++
+j−5
+X
+p=4
+j−p−4
+X
+l=1
+j−p−l−3
+X
+i=1
+4P 2
+p−2P 2
+j−p−l−i−1 +
+j−8
+X
+r=1
+j−r−7
+X
+q=1
+j−q−r−3
+X
+l=4
+2P 2
+l−2P 2
+j−q−r−l−1
++
+j−8
+X
+t=1
+j−t−8
+X
+m=0
+j−t−m−4
+X
+s=4
+(j −t −m −7)P 2
+s−2P 2
+j−t−m−s−2.
+3.2.4 Counting of the class L (n; 4, 3)
+Now in this subsection, ﬁrstly we count the class B(j; 4, 3, 6), i.e., B22(j; 4, 3), secondly
+we count the class B(j; 4, 3), and ﬁnally we count the class L (n; 4, 3).
+Proposition 3.33. For j ≥10,
+|B(j; 4, 3, 6)| = |B22(j; 4, 3)| =
+j−3
+X
+p=7
+p−3
+X
+l=4
+P 2
+j−p−1P 2
+l−2P 2
+p−l−1.
+Proof. Let B ∈B22(j; 4, 3). Let 0 < a < b < 1 be the reducible elements of B. As
+B22(see Figure IV) is the basic block associated to B, by Theorem 1.10, Red(B22) =
+Red(B) and η(B22) = η(B) = 3. Observe that an adjunct representation of B22 is
+given by B22 = C]a
+0{c1}]b
+a{c2}]1
+b{c3}, where C : 0 ≺x ≺a ≺y ≺b ≺z ≺1 is a 7-
+chain. Also by Theorem 1.11, B has an adjunct representation B = C0]a
+0C1]b
+aC2]1
+bC3,
+where C0 is a maximal chain containing all the reducible elements of B, and C1, C2, C3
+are chains.
+Observe that, B = B′ ◦B′′ where B′ ∈B3(p; 3, 2) with p ≥7, B′′ ∈B(q; 2, 1) with
+q ≥4, and as the element b is considered twice, j = p + q −1 ≥10. If D = D′ ◦D′′
+where D′ ∈B3(p; 3, 2) with p ≥7, D′′ ∈B(q; 2, 1) with q ≥4. Then B ∼= D if and
+only if B′ ∼= D′ and B′′ ∼= D′′. Further, 7 ≤p = j−q+1 ≤j−3, since q ≥4. Hence by
+Lemma 1.5, B22(j; 4, 3) =
+j−3
+X
+p=7
+|B3(p; 3, 2)|×|B(j−p+1; 2, 1)|. As B′′ ∈B(j−p+1; 2, 1)
+and B′′ \{0, 1} = (C0 ∩(b, 1)) ˙∪C3, |B(j −p+1; 2, 1)| = P 2
+j−p−1. Using Proposition 2.3
+by taking k = 2, we have |B3(p; 3, 2)| =
+p−3
+X
+l=4
+P 2
+l−2 × P 2
+p−l−1. Therefore B22(j; 4, 3) =
+j−3
+X
+p=7
+ 
+P 2
+j−p−1 ×
+p−3
+X
+l=4
+P 2
+l−2 × P 2
+p−l−1
+!
+=
+j−3
+X
+p=7
+p−3
+X
+l=4
+P 2
+j−p−1 × P 2
+l−2 × P 2
+p−l−1. Thus there are
+j−3
+X
+p=7
+p−3
+X
+l=4
+P 2
+p−l−1P 2
+l−2P 2
+p−l−1 maximal blocks in B22(j; 4, 3) up to isomorphism.
+As B(j; 4, 3) = ˙∪6
+h=3B(j; 4, 3, h), using Theorem 3.11, Theorem 3.22, Theorem
+3.32, and Proposition 3.33, we have the following result.
+Theorem 3.34. For j ≥7, |B(j; 4, 3)| =
+6
+X
+h=3
+|B(j; 4, 3, h)| =
+22
+X
+i=1
+|Bi(j; 4, 3)|.
+Using Theorem 3.34, we have the following main result.
+Theorem 3.35. For n ≥7, |L (n; 4, 3)| =
+n−7
+X
+i=0
+(i + 1)|B(n −i; 4, 3)|.
+16
+Proof. Let L ∈L (n; 4, 3) with n ≥7. Then L = C ⊕B ⊕C′, where C and C′ are
+the chains with |C| + |C′| = i ≥0, and B ∈B(j; 4, 3) with j = n −i ≥7. For ﬁxed
+i, there are |B(n −i; 4, 3)| maximal blocks up to isomorphism. Note that, there are
+i + 1 ways to arrange i elements on the chains C and C′. Thus for 0 ≤i = n −j ≤
+n −7, |L (n; 4, 3)| =
+n−7
+X
+i=0
+(i + 1)|B(n −i; 4, 3)|. Hence the result follows from Theorem
+3.34.
+References
+[1] Birkhoﬀ, G.: Lattice Theory vol. 25. Amer. Math. Soc. Colloq. Pub., New Delhi
+(1979)
+[2] Brinkmann, G., McKay, B.D.: Posets on up to 16 points. Order 19, 147–179
+(2002)
+[3] Heitzig, J., Reinhold, J.: Counting ﬁnite lattices. Algebra Universalis 48(1), 43–53
+(2002)
+[4] Bhavale, A.N., Waphare, B.N.: Basic retracts and counting of lattices. Australas.
+J. Combin. 78(1), 73–99 (2020)
+[5] Pawar, M.M., Waphare, B.N.: Enumeration of nonisomorphic lattices with equal
+number of elements and edges. The Journal of Indian Math. Soc. 45(3), 315–323
+(2003)
+[6] Thakare, N.K., Pawar, M.M., Waphare, B.N.: A structure theorem for dis-
+mantlable lattices and enumeration. Periodica Mathematica Hungarica 45(1-2),
+147–160 (2002)
+[7] Bhavale, A.N., Aware, B.P.: Counting of lattices on up to three reducible elements.
+The Journal of Indian Math. Soc.(Accepted) (2024) arXiv:2407.06736
+[8] Bhavale, A.N., Aware, B.P.: Counting of lattices having nullity up to two. Surveys
+in Mathematics and its Applications(Communicated) (2024)
+[9] Rival, I.: Lattices with doubly irreducible elements. Canad. Math. Bull. 17, 91–95
+(1974)
+[10] Stanley, R.P.: Enumerative Combinatorics. Wadsworth and Brooks, California
+(1986)
+[11] Davey, B.A., Priestley, H.A.: Introduction to Lattices and Order. Cambridge
+University Press, Cambridge (1990)
+[12] Bhamre, V.P., Pawar, M.M.: Covering energy, linear sum and vertical sum of
+posets. AKCE International Journal of Graphs and Combinatorics, 1–11 (2024)
+17
+https://doi.org/10.1080/09728600.2024.2368136
+[13] Gr¨atzer, G.: General Lattice Theory, 2nd edn. Birkh¨auser Verlag, Basel (1998)
+[14] West, D.B.: Introduction to Graph Theory. Prentice Hall of India, New Delhi
+(2002)
+[15] Bhavale, A.N.: Enumeration of certain algebraic systems and related results. A
+thesis submitted to University of Pune, India (presently, Savitribai Phule Pune
+University) (2013)
+18
