@@ -1,0 +1,39 @@
+{
+  "title": "Improving Generalization in Federated Learning by Seeking Flat Minima",
+  "authors": [
+    "Debora Caldarola",
+    "Barbara Caputo",
+    "Marco Matteo Ciccone"
+  ],
+  "abstract": null,
+  "doi": "10.1007/978-3-031-20050-2_38",
+  "arxiv_id": "2203.11834",
+  "url": "https://openalex.org/W4221151561",
+  "pdf_url": "https://arxiv.org/pdf/2203.11834",
+  "published_date": "2022-01-01",
+  "venue": "Lecture notes in computer science",
+  "citations": 84,
+  "source": "openalex",
+  "external_ids": {
+    "openalex": "W4221151561"
+  },
+  "search": {
+    "query": "flat minima generalization",
+    "sources": [
+      "openalex"
+    ],
+    "max_results_per_source": 2,
+    "year": null,
+    "openalex_semantic": false,
+    "source_results": {
+      "openalex": 2
+    },
+    "search_errors": {}
+  },
+  "fetched_at": "2026-10-15T14:54:17+00:00",
+  "fulltext": {
+    "url": "https://arxiv.org/pdf/2203.11834",
+    "parser": "pymupdf 1.28.2",
+    "fetched_at": "2026-10-15T14:54:18+00:00"
+  }
+}
