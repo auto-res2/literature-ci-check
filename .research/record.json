@@ -1,1 +1,77 @@
-{}
+{
+  "literature": [
+    {
+      "id": "s3",
+      "title": "Sharpness-Aware Minimization for Efficiently Improving Generalization",
+      "authors": [
+        "Pierre Foret",
+        "Ariel Kleiner",
+        "Hossein Mobahi",
+        "Behnam Neyshabur"
+      ],
+      "year": 2020,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2010.01412",
+      "arxiv_id": "2010.01412",
+      "url": "https://openalex.org/W3091401866",
+      "bibkey": "foret-2020-sharpness",
+      "verified_by": "openalex",
+      "verified_at": "2026-10-15T14:50:10+00:00",
+      "fulltext": {
+        "path": ".research/sources/s3/fulltext.txt",
+        "sha256": "0f19e6a68b6b0a073f88cef231f9630bd10555869efb30e99e12863a12ccea4f"
+      },
+      "parser": "pymupdf 1.28.2",
+      "passages": [
+        {
+          "id": "s3.p1",
+          "node_type": "method",
+          "quote": "our procedure, Sharpness-Aware Minimization (SAM), seeks parameters that lie in neighborhoods having uniformly low loss"
+        }
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "h1",
+      "statement": "SAM improves test accuracy over SGD on a small image classification task.",
+      "quoted_passage_ids": [
+        "s3.p1"
+      ],
+      "claims": [
+        {
+          "id": "c1",
+          "statement": "SAM reaches higher test accuracy than SGD.",
+          "rationale": "Direct comparison on the hypothesis's metric.",
+          "verifier": {
+            "kind": "seyval"
+          },
+          "designs": [
+            {
+              "id": "d1",
+              "runs": [
+                {
+                  "run_id": "sam"
+                },
+                {
+                  "run_id": "sgd"
+                }
+              ]
+            }
+          ],
+          "criterion": {
+            "metric": "accuracy",
+            "subject": "sam",
+            "reference": "sgd",
+            "op": ">="
+          },
+          "prediction": {
+            "low": 0.0,
+            "high": 0.02,
+            "basis": "s3.p1"
+          }
+        }
+      ]
+    }
+  ]
+}
