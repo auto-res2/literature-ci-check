@@ -1843,3 +1843,4 @@ Cifar100
 Figure 7: Evolution of maxϵ L(w + ϵ) −L(w) vs. training step, for different numbers of inner
 projected gradient steps.
 20
+SAM always beats SGD by ten points.
